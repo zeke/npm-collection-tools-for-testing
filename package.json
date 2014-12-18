@@ -1,0 +1,32 @@
+{
+  "name": "npm-collection-tools-for-testing",
+  "version": "1.0.0",
+  "description": "Modules I use for writing tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo hi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeke/npm-collection-tools-for-testing"
+  },
+  "keywords": [
+    "collection",
+    "testing",
+    "tests"
+  ],
+  "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeke/npm-collection-tools-for-testing/issues"
+  },
+  "homepage": "https://github.com/zeke/npm-collection-tools-for-testing",
+  "dependencies": {
+    "lab": "^5.1.0",
+    "mocha": "^2.0.1",
+    "nixt": "^0.4.1",
+    "nock": "^0.52.2",
+    "supertest": "^0.15.0",
+    "tap": "^0.4.13"
+  }
+}
