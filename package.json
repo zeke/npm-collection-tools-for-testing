@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/zeke/npm-collection-tools-for-testing",
   "dependencies": {
+    "jsmd": "^0.3.0",
     "lab": "^5.1.0",
     "mocha": "^2.0.1",
     "nixt": "^0.4.1",
