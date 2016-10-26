@@ -1,7 +1,7 @@
 {
   "name": "npm-collection-tools-for-testing",
   "version": "1.0.0",
-  "description": "Modules I use for writing tests",
+  "description": "Useful modules for writing tests",
   "main": "index.js",
   "scripts": {
     "test": "echo hi"
@@ -22,13 +22,17 @@
   },
   "homepage": "https://github.com/zeke/npm-collection-tools-for-testing",
   "dependencies": {
+    "deep-diff": "^0.3.0",
     "jsmd": "^0.3.0",
     "lab": "^5.1.0",
     "mocha": "^2.0.1",
+    "mock-stdin": "^0.3.1",
     "nixt": "^0.4.1",
     "nock": "^0.52.2",
     "sinon": "^1.13.0",
+    "smokestack": "^3.4.1",
     "supertest": "^0.15.0",
-    "tap": "^0.4.13"
+    "tap": "^0.4.13",
+    "zuul": "^3.11.1"
   }
 }
